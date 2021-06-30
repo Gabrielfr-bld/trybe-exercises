@@ -10,11 +10,12 @@
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
-function alteraP(){
 	document.getElementById('description').innerText = 'Me vejo trabalhando como dev';
-}       
-alteraP();
-function yellow(){
-	document.querySelector('.main-content').style.backgroundColor = rgb(76,164,109);
-}
-yellow();
+ 	document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(73,164,109)';
+	document.getElementsByTagName('section')[0].style.backgroundColor = 'white'; 
+	document.getElementsByClassName('title')[0].innerText = 'Exercício 5.1 - JavaScript';
+	document.getElementById('maiusculo').style.textTransform = 'uppercase';
+	console.log(document.getElementsByTagName('p'));
+	
+
+
