@@ -3,10 +3,14 @@ tagH1.innerText = 'Exercício 5.2 - Javascript DOM';
 document.body.appendChild(tagH1);
 
 let addDiv = document.createElement('div');
-addDiv.classList.add('.main-content');
+addDiv.className = 'main-content';
 document.body.appendChild(addDiv);
 
 
 let centerDiv = document.createElement('div');
-centerDiv.classList.add('center-content');
-document.body.addDiv.appendChild(centerDiv);
+centerDiv.className = 'center-content';
+addDiv.appendChild(centerDiv);
+
+let paragraph = document.createElement('p');
+paragraph.innerText = 'Algum Texto!';
+centerDiv.appendChild(paragraph);
