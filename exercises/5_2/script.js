@@ -27,3 +27,19 @@ let image = document.createElement('img');
 image.src = 'https://picsum.photos/200';
 image.className = 'small-image';
 leftDiv.appendChild(image);
+
+let list = document.createElement('ul');
+let numList = ['um','dois','três','quatro','cinco','seis','sete','oito','nove','dez'];
+for(let index in numList){
+    let num = numList[index];
+
+    let li = document.createElement('li');
+    li.innerHTML = num;
+    
+    list.appendChild(li);
+};
+rightDiv.appendChild(list);
+
+
+
+
