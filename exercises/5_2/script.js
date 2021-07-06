@@ -18,3 +18,12 @@ centerDiv.appendChild(paragraph);
 let leftDiv = document.createElement('div');
 leftDiv.className = 'left-content';
 addDiv.appendChild(leftDiv);
+
+let rightDiv = document.createElement('div');
+rightDiv.className = 'right-content';
+addDiv.appendChild(rightDiv);
+
+let image = document.createElement('img');
+image.src = 'https://picsum.photos/200';
+image.className = 'small-image';
+leftDiv.appendChild(image);
