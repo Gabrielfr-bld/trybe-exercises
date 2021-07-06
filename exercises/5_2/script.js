@@ -14,3 +14,7 @@ addDiv.appendChild(centerDiv);
 let paragraph = document.createElement('p');
 paragraph.innerText = 'Algum Texto!';
 centerDiv.appendChild(paragraph);
+
+let leftDiv = document.createElement('div');
+leftDiv.className = 'left-content';
+addDiv.appendChild(leftDiv);
