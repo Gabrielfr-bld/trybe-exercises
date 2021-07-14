@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+
 
 <head>
   <meta charset="UTF-8">
@@ -40,6 +40,22 @@
         <input type="radio" name="local" id="ap">
       </label>
     </form>
+  </fieldset>
+  <br>
+  <fieldset>
+    <label for="resumo"> Resumo do Currículo
+      <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+    </label>
+    <br>
+    <label for="office">Cargo
+      <input type="text" name="cargo" id="office" maxlength="40">
+    </label>
+    <label for="description-office">Descrição do Cargo
+      <input type="text" name="desc-cargo" id="description-office">
+    </label>
+    <label for="date-begin">Data de Início
+      <input type="date" name="data-inicio" id="date-begin" required>
+    </label>
   </fieldset>
   <script src="script.js"></script>
 </body>

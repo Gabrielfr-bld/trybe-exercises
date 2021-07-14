@@ -9,3 +9,4 @@ for(index in estados){
   selecionaEstados.appendChild(criaOption);
 }
 
+
