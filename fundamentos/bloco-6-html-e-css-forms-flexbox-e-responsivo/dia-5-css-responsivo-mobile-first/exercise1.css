@@ -19,7 +19,7 @@ figure {
   margin: 45px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   body{
     background-color: aqua;
     font-size: 25px;
@@ -39,5 +39,14 @@ figure {
     width: 150px;
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+  body{
+    font-size: x-large;
+    background-color: blue;
+    margin: 50px;
+    max-width: 80%;
   }
 }
