@@ -7,7 +7,9 @@ h1 {
   font-size: 18px;
 }
 
-h2 {}
+h2 {
+
+}
 
 img {
   max-width: 100%;
@@ -15,4 +17,27 @@ img {
 
 figure {
   margin: 45px;
+}
+
+@media only screen and (min-width: 800px) {
+  body{
+    background-color: aqua;
+    font-size: 25px;
+    margin: 30px;
+  }
+
+  h2{
+    display: none;
+  }
+
+  main{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  img{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+  }
 }
