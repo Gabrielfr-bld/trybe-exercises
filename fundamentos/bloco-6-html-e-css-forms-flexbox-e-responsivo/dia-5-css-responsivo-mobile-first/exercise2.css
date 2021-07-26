@@ -1,6 +1,30 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  header{
+    background-color: #a3d7e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-family: 'Alice', serif;
+    font-size: 20px;
   }
-  *, *:before, *:after {
-    box-sizing: inherit;
+
+  header nav ul{
+   display: none;
   }
+
+  
+}
